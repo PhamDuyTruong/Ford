@@ -1,0 +1,22 @@
+.vehicle{
+    padding: 0 15px;
+    .vehicle-content{
+        h5{
+            margin-top: 10px;
+            @include styleText($color-black-0,$fs-4 - 6,$fw-normal);
+        }
+        p{
+            @include styleText($color-gray,$fs-0,$fw-normal);
+        }
+        .btn-vehicle{
+            margin-top: 20px;
+            background: $color-blue-0;
+            padding: 10px 40px;
+            border-radius: 0;
+            color: $color-white-0;
+        }
+        .btn-vehicle:hover{
+            @include styleButtonHover($color-white-0,$color-blue-2,$color-blue-0);
+        }
+    }
+}

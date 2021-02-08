@@ -1,0 +1,41 @@
+$color-black-0: #333333;// default
+$color-black-1: #102B4E;
+$color-white-0: #fff;
+$color-blue-0:#0276B3;
+$color-blue-1: #37A9E8;
+$color-blue-2: #2861A4;
+$color-gray: #A7A7A7;
+$color-gray-1: #626466;
+$color-red-0 : #D92E14;
+$color-red-1: rgb(217,46,20);
+$color-trans:transparent;
+
+$fs-0: 16px;
+$fs-1: 14px;
+$fs-2: 27.5px;
+$fs-3: 20.8px;
+$fs-4: 42px;
+
+$line-height:1.1;
+
+$mg-0: 5px;
+$mg-1: 10px;
+$mg-2: 20px;
+$mg-3: 40px;
+
+$border-radius: 50%;
+
+$pd-0: 5px;
+$pd-1: 15px;
+$pd-2: 20px;
+
+$fw-normal: normal;
+$fw-bold-0: 500;
+$fw-bold: bold;
+
+$breakpoints:(
+    'extra-large': 1200px,
+    'large' : 992px,
+    'medium' : 768px,
+    'small' : 590px,
+)

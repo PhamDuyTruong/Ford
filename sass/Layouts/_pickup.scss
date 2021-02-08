@@ -1,0 +1,55 @@
+.pickup{
+    h5{
+        margin-top: 20px;
+        @include styleText($color-black-0,$fs-4 - 6,$fw-normal);
+        text-align: center;  
+    }
+    #pickupFord .carousel-indicators li{
+        width: 10px;
+        height: 10px;
+        background: transparent;
+        border-radius: 50%;
+        border: 1px solid $color-blue-1;
+    }
+    #pickupFord .carousel-indicators li.active{
+        background: $color-blue-1;
+    }
+    .container{
+        align-items: center;
+        justify-content: space-around;
+        img{
+            height: auto;
+            width: 100%;
+            max-width: 400px;
+            
+        }
+        .pickup-product{
+            margin-top: 10px;
+            @include styleText($color-blue-0,$fs-3 + 3,$fw-normal);
+            cursor: pointer;
+        }
+        .price{
+            sup{
+                color: $color-blue-0
+            }
+            @include styleText($color-gray,$fs-0,$fw-normal);
+        }
+        .btn-overview{
+            color: $color-white-0;
+            padding: 10px 30px;
+            margin: 10px 0;
+            background: $color-blue-0;
+            border-radius: 0;
+        }
+        .btn-overview:hover{
+            @include styleButtonHover($color-white-0,$color-blue-2,$color-black-0);
+        }
+        .product-view{
+            @include styleText($color-blue-0,$fs-0 + 2,$fw-normal);
+        }
+        p.product-view:hover{
+            cursor: pointer;
+            @include styleText($color-blue-2,$fs-0 + 2,$fw-normal);
+        }
+    }
+}

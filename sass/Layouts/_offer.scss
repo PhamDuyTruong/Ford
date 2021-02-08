@@ -1,0 +1,109 @@
+.offer {
+  margin-top: 20px;
+  padding: 0 15px;
+  .offer-container {
+    position: relative;
+    .offer-content {
+      position: absolute;
+      top: 0;
+      left: 530px;
+      h5 {
+        @include styleText($color-white-0, $fs-4 - 6, $fw-normal);
+        letter-spacing: 2px;
+      }
+    }
+    .offer-item {
+      position: absolute;
+      bottom: 0;
+      left: 650px;
+      p {
+        @include styleText($color-white-0, $fs-0, $fw-normal);
+        letter-spacing: 1.5px;
+      }
+      .fa {
+        width: 30px;
+        height: 33px;
+        padding: 7px;
+
+        border-radius: 50%;
+        border: 1px solid $color-white-0;
+      }
+      .fa:hover {
+        @include styleButtonHover($color-white-0, $color-blue-2, $color-blue-0);
+      }
+    }
+  }
+}
+@media screen and(min-width:1200px) and(max-width:1295px) {
+  .offer-content {
+    position: absolute !important;
+    top: 0;
+    left: 350px !important;
+  }
+  .offer-item {
+    position: absolute;
+    bottom: 0;
+    left: 530px !important;
+  }
+}
+@media screen and(max-width:900px) {
+  .offer-content {
+    position: absolute !important;
+    top: 0;
+    left: 100px !important;
+    h5 {
+      font-size: 30px !important;
+    }
+  }
+  .offer-item {
+    position: absolute;
+    bottom: 0;
+    left: 420px !important;
+  }
+}
+
+@include responsive("medium") {
+  .offer-content {
+    position: absolute !important;
+    top: 0;
+    left: 0px !important;
+    h5 {
+      font-size: 25px !important;
+      letter-spacing: 2px;
+    }
+  }
+  .offer-item {
+    position: absolute;
+    bottom: 0;
+    left: 230px !important;
+  }
+}
+@include responsive("large") {
+  .offer-content {
+    position: absolute !important;
+    top: 0;
+    left: 165px !important;
+  }
+  .offer-item {
+    position: absolute;
+    bottom: 0;
+    left: 370px !important;
+  }
+}
+@include responsive("extra-large") {
+  .offer-container {
+    img {
+      height: 250px !important;
+    }
+    .offer-content {
+      position: absolute !important;
+      top: 0;
+      left: 290px !important;
+    }
+    .offer-item {
+        position: absolute;
+        bottom: 0;
+        left: 390px !important;
+      }
+  }
+}

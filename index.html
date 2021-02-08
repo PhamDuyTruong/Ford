@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ford</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css">
+
+  <link rel="stylesheet" href="./css/main.css">
+
+</head>
+
+<body>
+  <header>
+    <div class="d-flex header-content">
+
+      <div class="header-left">
+        <a href="#" class="pr-2 header-item mr-2">
+          <span class="header-icon">
+            <img src="./img/logoBronco.jpg" alt="Hình ảnh">
+          </span>
+          <span>Bronco</span>
+        </a>
+        <a href="#" class="header-text">
+          FORD USED
+        </a>
+      </div>
+      <div class="header-right">
+        <a href="#">
+          <i class="fa fa-map-marker-alt"></i>
+          <span>Dealership Locations</span>
+        </a>
+      </div>
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">
+        <img src="./img/Ford-Logo.png" class="img-fluid">
+      </a>
+      <button class="navbar-toggler collaspe opened" type="button" data-toggle="collapse" data-target="#navbarFord"
+        aria-controls="navbarFord" aria-expanded="false" aria-label="Toggle navigation">
+        <input type="checkbox" class="openSidebarMenu" id="openSidebarMenu">
+        <label for="openSidebarMenu" class="sidebarIconToggle">
+          <div class="spinner diagonal part-1"></div>
+          <div class="spinner horizontal"></div>
+          <div class="spinner diagonal part-2"></div>
+          <div class="ford-text">
+            <p style="font-size: 14px;">Menu</p>
+          </div>
+        </label>
+
+
+      </button>
+
+      <div class="collapse navbar-collapse nav-content" id="navbarFord">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">SUVS & CROSSOVERS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">TRUCKS AND VANS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">ELECTRIFIED</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">CARS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">ALL VEHICLES</a>
+          </li>
+        </ul>
+      </div>
+      <div class="collapse navbar-collapse ford-content" id="navbarFord">
+        <ul class="navbar-nav mr-auto d-lg-none d-xl-none d-block">
+          <li class="nav-item dropdown header-title">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false" onclick=hienThiThongTin()>
+              <span id="vehicle">VEHICLES</span>
+              <span class=" ford-icon float-right"><i class="fa fa-angle-down"></i></span>
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">SUVS & CROSSOVERS</a>
+
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">TRUCKS AND VANS</a>
+
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">ELECTRIFIED</a>
+
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">CARS</a>
+
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">ALL VEHICLES</a>
+
+            </div>
+          </li>
+
+
+        </ul>
+      </div>
+      <div class="collapse navbar-collapse" id="navbarFord">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item header-title">
+            <a class="nav-link" href="#"><i class="fa fa-user pr-2"></i>MY ACCOUNT</a>
+          </li>
+          <li class="nav-item header-title">
+            <a class="nav-link" href="#">FINANCE</a>
+          </li>
+          <li class="nav-item header-title">
+            <a class="nav-link" href="#">SUPPORT</a>
+          </li>
+          <li class="nav-item d-lg-none d-xl-none d-block header-title">
+            <a class="nav-link " href="#" id="nav-special">
+              <i class="fa fa-map-marker-alt"></i>
+              <span>Dealership Locations</span>
+            </a>
+          </li>
+          <li class="nav-item d-lg-none d-xl-none d-block header-title">
+            <a class="nav-link " href="#" id="nav-special">
+              <span>EN</span>
+            </a>
+          </li>
+          <li class="nav-item d-lg-none d-xl-none d-block ford-icon">
+            <a class="nav-link text-center d-flex" href="#" id="nav-img">
+              <span>
+                <img src="./img/logoBronco.jpg" alt="Hình ảnh">
+                <p>Bronco</p>
+              </span>
+              <span class="ml-2">FORD USED</span>
+            </a>
+          </li>
+        </ul>
+
+      </div>
+
+    </nav>
+  </header>
+  <section class="carousel">
+    <div id="carouselFord" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselFord" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselFord" data-slide-to="1"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./img/cq5dam.web.2160.2160 (1).jpg" class="d-block w-100" alt="Hình ảnh">
+          <div class="carousel-caption d-none d-md-block">
+            <button class="btn btn-learn">Learn more</button>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./img/cq5dam.web.2160.2160.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block ">
+            <div class="carousel-content">
+              <h5>Unleash The Raptor</h5>
+              <button class="btn btn-raptor">Explore F-150 Raptor</button>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselFord" role="button" data-slide="prev">
+        <span class="carousel-prev-icon"><i class="fa fa-angle-left"></i></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselFord" role="button" data-slide="next">
+        <span class="carousel-next-icon"><i class="fa fa-angle-right"></i></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </section>
+  <section class="pickup">
+    <h5>Pick Up Where You Left Off</h5>
+    <div class="container d-lg-flex d-xl-flex d-md-flex d-none">
+
+      <div class="product-left">
+        <img src="./img/ford.png" alt="Hình ảnh">
+        <div class="product-content text-center">
+          <p class="pickup-product">2021 F-150 ></p>
+          <p class="price">Starting at $28,940 <sup>1</sup></p>
+          <button class="btn btn-overview">Overview</button>
+          <p class="product-view">View all Offers ></p>
+        </div>
+
+      </div>
+      <div class="product-right">
+        <img src="./img/vehicle.png" alt="Hình ảnh">
+        <div class="product-content text-center">
+          <p class="pickup-product">2021 Bronco ></p>
+          <p class="price">Starting at $28,500<sup>1</sup></p>
+          <button class="btn btn-overview">Overview</button>
+          <p class="product-view">Get Updates ></p>
+        </div>
+
+      </div>
+
+    </div>
+    <div class="container d-md-none d-block carousel slide" id="pickupFord" data-ride="carousel">
+
+      <div class="carousel-inner">
+        <div class="product-left carousel-item active">
+          <img src="./img/ford.png" alt="Hình ảnh">
+          <div class="product-content text-center pb-3">
+            <p class="pickup-product">2021 F-150 ></p>
+            <p class="price">Starting at $28,940 <sup>1</sup></p>
+            <button class="btn btn-overview">Overview</button>
+            <p class="product-view">View all Offers ></p>
+          </div>
+
+        </div>
+        <div class="product-right carousel-item">
+          <img src="./img/vehicle.png" alt="Hình ảnh">
+          <div class="product-content text-center pb-3">
+            <p class="pickup-product">2021 Bronco ></p>
+            <p class="price">Starting at $28,500<sup>1</sup></p>
+            <button class="btn btn-overview">Overview</button>
+            <p class="product-view">Get Updates ></p>
+          </div>
+
+        </div>
+      </div>
+      <ol class="carousel-indicators">
+        <li data-target="#pickupFord" data-slide-to="0" class="active"></li>
+        <li data-target="#pickupFord" data-slide-to="1"></li>
+      </ol>
+    </div>
+  </section>
+  <section class="vehicle">
+    <div class="vehicle-content text-center">
+      <h5>Something for Everyone</h5>
+      <p>See our full lineup of vehicles and find the one that best fits you.</p>
+      <button class="btn btn-vehicle">All Vehicles</button>
+    </div>
+    <div class="vehicle-img">
+      <img src="./img/cq5dam.web.2160.2160.png" alt="Hình ảnh" class="img-fluid">
+    </div>
+  </section>
+  <section class="offer">
+    <div class="offer-container">
+      <img src="./img/cq5dam.web.2160.2160 (2).jpg" alt="Hình ảnh" class="img-fluid">
+      <div class="offer-content">
+        <h5>Let Us Sweeten the Deal</h5>
+      </div>
+
+      <div class="offer-item">
+        <p>SEE ALL OFFERS <span class="ml-2"><i class="fa fa-angle-right"></i></span></p>
+      </div>
+
+    </div>
+  </section>
+  <section class="new">
+    <div class="container-fluid d-lg-block d-xl-block d-md-block d-none">
+      <div class="row new-top">
+        <div class="col-9 new-top-right">
+          <h5>What's Happening at Ford</h5>
+          <p>The latest technology, news and vehicles.</p>
+        </div>
+        <div class="col-3 new-top-left">
+          <div class="new-item">
+            <img src="./img/cq5dam.web.768.768.jpg" class="img-fluid">
+            <div class="new-content d-flex container-fluid">
+              <p>Learn more about Ford Fund </p>
+              <p class="new-icon ml-2"><i class="fa fa-angle-right"></i></p>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+      <div class="row new-center">
+        <div class="col-6 new-item-left">
+          <div class="new-item">
+            <img src="./img/hinh1.png" class="img-fluid">
+            <div class="new-content d-flex new-ford container-fluid">
+              <p>The All-New 2021 F-150 Raptor </p>
+              <p class=" new-icon ml-2"><i class="fa fa-angle-right"></i></p>
+            </div>
+          </div>
+
+        </div>
+        <div class="col-6 new-item-right">
+          <div class="container">
+            <div class="row">
+              <div class="col-6 product-top-left">
+                <div class="new-item">
+                  <img src="./img/Hình2.png" class="img-fluid">
+                  <div class="new-content d-flex container-fluid">
+                    <p>Which Fuel Choice is Right For you? </p>
+                    <p class="new-icon ml-2"><i class="fa fa-angle-right"></i></p>
+                  </div>
+                </div>
+
+
+              </div>
+              <div class=" col-6 product-top-right">
+                <div class="new-item">
+                  <img src="./img/Hình3.png" class="img-fluid">
+                  <div class="new-content d-flex container-fluid">
+                    <p>Fordpass <sup>TM</sup> Rewards Visa Card</p>
+                    <p class="new-icon ml-2"><i class="fa fa-angle-right"></i></p>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-6 product-bottom-left">
+                <div class="new-item">
+                  <img src="./img/Hình4.png" class="img-fluid">
+                  <div class="new-content d-flex container-fluid">
+                    <p>Learn more</p>
+                    <p class="new-icon ml-2"><i class="fa fa-angle-right"></i></p>
+                  </div>
+                </div>
+
+              </div>
+              <div class="col-6 product-bottom-right">
+                <div class="new-item">
+                  <img src="./img/Hình5.png" class="img-fluid">
+                  <div class="new-content d-flex container-fluid">
+                    <p>Covid 19 Assistant</p>
+                    <p class="new-icon ml-2"><i class="fa fa-angle-right"></i></p>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+    <div class="new-2 conatiner-fluid my-4 d-lg-none d-xl-none d-md-none d-block">
+      <h5>What's Happening at Ford</h5>
+      <div class="row">
+
+        <div class="col-12">
+          <div class="new-item">
+            <img src="./img/hinh1.png" class="img-fluid">
+            <div class="new-content d-flex new-ford container-fluid">
+              <p>The All-New 2021 F-150 Raptor </p>
+              <p class=" new-icon ml-2"><i class="fa fa-angle-right"></i></p>
+            </div>
+          </div>
+          <div class="col-12">
+            <div class="new-item">
+              <img src="./img/cq5dam.web.768.768.jpg" class="img-fluid img-special">
+              <div class="new-content d-flex container-fluid">
+                <p>Learn more about Ford Fund </p>
+                <p class="new-icon ml-2"><i class="fa fa-angle-right"></i></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12">
+            <div class="new-item">
+              <img src="./img/Hình2.png" class="img-fluid">
+              <div class="new-content d-flex container-fluid">
+                <p>Which Fuel Choice is Right For you? </p>
+                <p class="new-icon ml-2"><i class="fa fa-angle-right"></i></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12">
+            <div class="new-viewmore container-fluid">
+              <p class="new-view">
+                <a class="new-btn" data-toggle="collapse" href="#newsproduct" role="button"
+                  aria-expanded="false" aria-controls="newsproduct">View All <span class="icon text-white ml-2"><i
+                      class="fa fa-plus"></i></span></a>
+              </p>
+              <div class="row">
+                <div class="col-12">
+                  <div class="collapse multi-collapse" id="newsproduct">
+                    <div class="new-item">
+                      <img src="./img/Hình4.png" class="img-fluid img-special">
+                      <div class="new-content d-flex container-fluid">
+                        <p>Learn more</p>
+                        <p class="new-icon ml-2"><i class="fa fa-angle-right"></i></p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12">
+                    <div class="collapse multi-collapse" id="newsproduct">
+                      <div class="new-item">
+                        <img src="./img/Hình3.png" class="img-fluid img-special">
+                        <div class="new-content d-flex container-fluid">
+                          <p>Fordpass <sup>TM</sup> Rewards Visa Card</p>
+                          <p class="new-icon ml-2"><i class="fa fa-angle-right"></i></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+  </section>
+  <section>
+
+  </section>
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+    crossorigin="anonymous"></script>
+  <script>
+    function hienThiThongTin() {
+      var x = document.getElementById("navbarDropdown");
+      var vehicle = document.getElementById("vehicle");
+      var y = x.getAttribute('aria-expanded');
+      if (y == "false") {
+        x.style.background = "#2861A4";
+        vehicle.style.color = "white";
+      }
+      if (y == "true") {
+        x.style.background = "white";
+        vehicle.style.color = "#0276B3";
+      }
+    }
+  </script>
+
+
+</body>
+
+
+</html>
