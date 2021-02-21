@@ -13,7 +13,7 @@ html, body {
 }
 
 header {
-  padding: 0 15px;
+  margin: 0 13px;
   position: -webkit-sticky;
   position: sticky;
   top: 0;
@@ -266,7 +266,7 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .ford-text {
 }
 
 .carousel {
-  padding: 0 19px;
+  padding: 0 8px;
 }
 
 .carousel .carousel-inner {
@@ -362,12 +362,12 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .ford-text {
 
 .carousel-next-icon {
   position: absolute;
-  right: 19px;
+  right: 10px;
 }
 
 .carousel-prev-icon {
   position: absolute;
-  left: 19px;
+  left: 10px;
 }
 
 .carousel-next-icon:hover, .carousel-prev-icon:hover {

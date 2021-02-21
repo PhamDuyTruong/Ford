@@ -1,5 +1,5 @@
 .carousel{
-    padding: 0 19px;
+    padding: 0 8px;
     .carousel-inner{
         position: relative;
         .carousel-item{
@@ -68,11 +68,11 @@
 }
 .carousel-next-icon{
     position: absolute;
-    right: 19px;
+    right: 10px;
 }
 .carousel-prev-icon{
     position: absolute;
-    left: 19px;
+    left: 10px;
 }
 .carousel-next-icon:hover, .carousel-prev-icon:hover{
     background: $color-white-0;
