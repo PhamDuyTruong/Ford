@@ -912,4 +912,18 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .ford-text {
   color: #092a46;
   border-color: #092a46;
 }
+
+.company {
+  color: #333333;
+}
+
+.company .col-2dot4 {
+  flex: 0 0 20%;
+  max-width: 20%;
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
 /*# sourceMappingURL=main.css.map */
