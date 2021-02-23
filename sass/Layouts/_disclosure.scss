@@ -1,0 +1,26 @@
+.disclosures{
+    p{
+        text-align: center;
+        border: 1px solid $color-blue-3;
+        padding: $pd-0 0;
+        margin: $mg-2 $mg-1;
+        margin-bottom: $mg-3;
+        a{
+            text-transform: uppercase;
+            color: $color-blue-3;
+            &:hover{
+                color: $color-blue-2;
+                text-decoration: none;
+            }
+            i{
+                margin-left: 5px;
+                font-size: $fs-0;
+            }
+        }
+    }
+    .disclosures__content{
+        background-color: $color-white-1;
+        color: $color-black-0;
+        height: 500px;
+    }
+} 

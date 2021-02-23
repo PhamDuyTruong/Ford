@@ -844,4 +844,74 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .ford-text {
   border-radius: 50%;
   border: 1px solid #fff;
 }
+
+.disclosures p {
+  text-align: center;
+  border: 1px solid #3B93D4;
+  padding: 5px 0;
+  margin: 20px 10px;
+  margin-bottom: 40px;
+}
+
+.disclosures p a {
+  text-transform: uppercase;
+  color: #3B93D4;
+}
+
+.disclosures p a:hover {
+  color: #2861A4;
+  text-decoration: none;
+}
+
+.disclosures p a i {
+  margin-left: 5px;
+  font-size: 16px;
+}
+
+.disclosures .disclosures__content {
+  background-color: #f7f7f7;
+  color: #333333;
+  height: 500px;
+}
+
+.recall {
+  background-color: #f7f7f7;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+.recall h1 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: #D92E14;
+  font-size: 42px;
+  font-weight: 500;
+  text-align: center;
+  padding-top: 20px;
+  line-height: 1.1;
+}
+
+.recall p {
+  padding-top: 40px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.recall p a {
+  background-color: #D92E14;
+  border: 1px solid #D92E14;
+  padding: 15px 20px;
+  border-radius: 0;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  display: inline-block;
+  width: 270px;
+  line-height: 1.25;
+}
+
+.recall p a:hover {
+  background-color: #fff;
+  color: #D92E14;
+  border-color: #D92E14;
+}
 /*# sourceMappingURL=main.css.map */
