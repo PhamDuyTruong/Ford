@@ -376,10 +376,10 @@
           </div>
           <div class="col-12">
             <div class="new-viewmore container-fluid">
-              <p class="new-view">
-                <a class="new-btn" data-toggle="collapse" href="#newsproduct" role="button"
-                  aria-expanded="false" aria-controls="newsproduct">View All <span class="icon text-white ml-2"><i
-                      class="fa fa-plus"></i></span></a>
+              <p class="new-view" id="view">
+                <a class="new-btn" data-toggle="collapse" href="#newsproduct" role="button" aria-expanded="false"
+                  aria-controls="newsproduct" id="viewmore" onclick=anHienThongTin()>View All <span
+                    class="icon text-white ml-2"><i class="fa fa-plus"></i></span></a>
               </p>
               <div class="row">
                 <div class="col-12">
@@ -403,6 +403,16 @@
                       </div>
                     </div>
                   </div>
+                </div>
+                <div class="col-12">
+                  <div class="collapse multi-collapse" id="newsproduct">
+                    <p class="new-view" id="less">
+                      <a class="new-btn" data-toggle="collapse" href="#newsproduct" role="button" aria-expanded="false"
+                        aria-controls="newsproduct" id="viewless" onclick=anHienThongTin()>View Less <span
+                          class="icon text-white ml-2"><i class="fa fa-minus"></i></span></a>
+                    </p>
+                  </div>
+
                 </div>
               </div>
             </div>
@@ -433,6 +443,28 @@
         vehicle.style.color = "#0276B3";
       }
     }
+
+    function anHienThongTin() {
+      var viewMore = document.getElementById("viewmore");
+      var layNutView = document.getElementById("view");
+      var layNutLess = document.getElementById("less");
+      var viewLess = document.getElementById("viewless");
+      var x = viewLess.getAttribute('aria-expanded'); 
+      var y = viewMore.getAttribute('aria-expanded');
+      if (y == "false") {
+        layNutView.style.display = "none";
+        layNutLess .style.display = "block";
+
+      }
+      if(x == "true"){
+        layNutView.style.display = "block";
+        layNutLess .style.display = "none";
+
+      }
+    }
+
+
+
   </script>
 
 
