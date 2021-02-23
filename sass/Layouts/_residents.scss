@@ -1,0 +1,32 @@
+.residents{
+    background-color: $color-blue-4;
+    padding-top: $pd-1;
+    padding-bottom: $pd-1;
+    h1{
+        margin-top: $mg-1;
+        margin-bottom: $mg-1;
+        @include styleText($color-white-0,$fs-4,$fw-bold-0);
+        text-align: center;
+        padding-top: $pd-2;
+        line-height: $line-height;
+    }
+    p{
+        text-align: center;
+        a{
+            text-decoration: solid;
+        }
+    }
+    h2{
+        margin-bottom: $mg-1;
+        text-align: center;
+        a{
+            @include styleButton($color-blue-0,$color-blue-0,$pd-1,$pd-2,0);
+            display: inline-block;
+            width: 370px;
+            line-height: 1.25;
+        }
+        a:hover{
+            @include styleButtonHover($color-white-0,$color-blue-4,$color-blue-4);
+        }
+    }
+}
