@@ -1169,4 +1169,89 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .ford-text {
     display: none;
   }
 }
+
+.footer__top {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f7f7f7;
+}
+
+.footer__top p i {
+  color: #0276b3;
+  font-size: 20px;
+}
+
+.footer__top p a {
+  font-weight: 100;
+  font-size: 14px;
+  text-decoration: underline;
+  color: #0276b3;
+}
+
+.footer__logo {
+  width: 80px;
+}
+
+.footer__logo img {
+  width: 100%;
+}
+
+.footer__middle {
+  background-color: #f7f7f7;
+}
+
+.footer__middle i {
+  color: #333333;
+  font-size: 14px;
+}
+
+.footer__middle span {
+  color: #333333;
+  font-size: 14px;
+  font-weight: 100;
+}
+
+.footer__bottom {
+  background-color: #f7f7f7;
+  padding-bottom: 50px;
+}
+
+.footer__bottom a {
+  color: #333333;
+  font-weight: 100;
+  text-decoration: none;
+  padding: 5px 5px;
+  font-size: 14px;
+}
+
+.footer__hidden {
+  background-color: #f7f7f7;
+}
+
+.footer__logo2 {
+  display: none;
+  width: 80px;
+}
+
+.footer__logo2 img {
+  width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  footer {
+    display: flex;
+    flex-direction: column;
+  }
+  footer .logo-hidden {
+    display: none;
+  }
+  footer .footer__bottom {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 5px;
+  }
+  footer .footer__logo2 {
+    display: block;
+  }
+}
 /*# sourceMappingURL=main.css.map */
