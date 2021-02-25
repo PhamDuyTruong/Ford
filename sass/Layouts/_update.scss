@@ -1,0 +1,11 @@
+.update{
+    background-color: #102b4e;
+    p{
+        color: $color-blue-1;
+    }
+}
+@include responsive("large"){
+    .update__hidden{
+        display: none;
+    }
+}
