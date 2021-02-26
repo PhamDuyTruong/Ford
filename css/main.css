@@ -797,7 +797,6 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .ford-text {
   border: 1px solid #fff;
 }
 
-<<<<<<< HEAD
 .disclosures p {
   text-align: center;
   border: 1px solid #3B93D4;
@@ -827,8 +826,6 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .ford-text {
   height: 500px;
 }
 
-=======
->>>>>>> Hoang
 .recall {
   background-color: #f7f7f7;
   padding-top: 20px;
@@ -857,10 +854,7 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .ford-text {
   border: 1px solid #D92E14;
   padding: 15px 20px;
   border-radius: 0;
-<<<<<<< HEAD
   -webkit-transition: 0.5s;
-=======
->>>>>>> Hoang
   transition: 0.5s;
   display: inline-block;
   width: 270px;
@@ -873,38 +867,6 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .ford-text {
   border-color: #D92E14;
 }
 
-<<<<<<< HEAD
-=======
-.disclosures p {
-  text-align: center;
-  border: 1px solid #3B93D4;
-  padding: 5px 0;
-  margin: 20px 10px;
-  margin-bottom: 40px;
-}
-
-.disclosures p a {
-  text-transform: uppercase;
-  color: #3B93D4;
-}
-
-.disclosures p a:hover {
-  color: #2861A4;
-  text-decoration: none;
-}
-
-.disclosures p a i {
-  margin-left: 5px;
-  font-size: 16px;
-}
-
-.disclosures .disclosures__content {
-  background-color: #f7f7f7;
-  color: #333333;
-  height: 500px;
-}
-
->>>>>>> Hoang
 .residents {
   background-color: #092a46;
   padding-top: 15px;
@@ -927,12 +889,8 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .ford-text {
 }
 
 .residents p a {
-<<<<<<< HEAD
   -webkit-text-decoration: solid;
           text-decoration: solid;
-=======
-  text-decoration: solid;
->>>>>>> Hoang
 }
 
 .residents h2 {
@@ -945,10 +903,7 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .ford-text {
   border: 1px solid #0276B3;
   padding: 15px 20px;
   border-radius: 0;
-<<<<<<< HEAD
   -webkit-transition: 0.5s;
-=======
->>>>>>> Hoang
   transition: 0.5s;
   display: inline-block;
   width: 370px;
@@ -966,11 +921,8 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .ford-text {
 }
 
 .company .col-2dot4 {
-<<<<<<< HEAD
   -webkit-box-flex: 0;
   -ms-flex: 0 0 20%;
-=======
->>>>>>> Hoang
   flex: 0 0 20%;
   max-width: 20%;
   position: relative;
