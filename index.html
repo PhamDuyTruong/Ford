@@ -419,16 +419,18 @@
           </div>
         </div>
   </section>
+  <!-- Recall -->
   <section class="recall">
     <h1>Airbag Recalls</h1>
     <p>
       <a href="#" class="btn btn-primary"><span>Learn More</span></a>
     </p>
   </section>
+  <!-- Disclosure -->
   <section class="disclosures">
-    <p>
-      <a data-toggle="collapse" href="#info" role="button" aria-expanded="false" aria-controls="info">
-        disclosures <i class="fa fa-angle-down"></i>
+    <p class="text">
+      <a data-toggle="collapse" href="#info" role="button" aria-expanded="false" aria-controls="info" onclick= hienAnimation() id="dis-title">
+        disclosures <i class="fa fa-angle-down" id="dis-icon" ></i>
       </a>
 
     </p>
@@ -1284,6 +1286,7 @@
       </div>
     </div>
   </footer>
+  <!-- Back to top -->
   <a href="#" class="scrollToTop">
     <i class="fa fa-angle-up"></i>
   </a>
@@ -1329,6 +1332,16 @@
       }
     }
 
+    function hienAnimation(){
+      var nutQuay = document.getElementById("dis-icon");
+      var layTieuDe = document.getElementById("dis-title");
+      var layThuocTinh = layTieuDe.getAttribute('aria-expanded');
+      if(layThuocTinh == "false"){
+        nutQuay.style.transform = "rotate(0deg)";
+      }else{
+        nutQuay.style.transform = "rotate(180deg)";
+      }
+    }
 
 
   </script>

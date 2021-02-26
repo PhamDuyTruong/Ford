@@ -33,6 +33,13 @@
       .dis-body{
           list-style-type: none;
       }
+    p.text{
+      border: 1px solid $color-blue-3;
+      transition: all .5s;
+    }
+    p.text:hover{
+      border: none;
+    }
     p{
         text-align: center;
         padding: $pd-0 0;
@@ -50,6 +57,9 @@
                 font-size: $fs-0;
             }
         }
+    }
+    .card-body{
+      background: $color-white-1;
     }
     .disclosures__content{
         background-color: $color-white-1;

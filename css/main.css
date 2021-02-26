@@ -885,7 +885,16 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .ford-text {
   margin: 20px 10px;
   margin-bottom: 40px;
 }
-
+.disclosures p.text{
+  border:  1px solid #37A9E8;
+  transition: all .5s;
+}
+.disclosures p.text:hover{
+  border: none;
+}
+.disclosures .card-body{
+  background: #f7f7f7;
+}
 .disclosures p a {
   text-transform: uppercase;
   color: #3B93D4;
