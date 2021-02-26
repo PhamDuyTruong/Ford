@@ -1,8 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 html, body {
@@ -14,21 +13,15 @@ html, body {
 
 header {
   margin: 0 13px;
-  position: -webkit-sticky;
   position: sticky;
   top: 0;
   z-index: 1071;
-  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
 .header-content {
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  align-items: center;
+  justify-content: space-between;
   background: #f3f3f3;
   padding: 0 30px;
 }
@@ -106,12 +99,8 @@ header {
 }
 
 .navbar .navbar-collapse .navbar-nav .nav-item #nav-img {
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  align-items: center;
+  justify-content: center;
 }
 
 .navbar .navbar-collapse .navbar-nav .nav-item img {
@@ -122,19 +111,16 @@ header {
 
 .dropdown-menu {
   border: none !important;
-  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
 .dropdown-toggle .ford-icon {
   color: #0276B3;
-  -webkit-transition: all .5s;
   transition: all .5s;
 }
 
 .dropdown-toggle:active .ford-icon {
-  -webkit-transform: rotate(180deg);
-          transform: rotate(180deg);
+  transform: rotate(180deg);
   color: #fff;
 }
 
@@ -143,18 +129,14 @@ header {
 }
 
 input[type=checkbox] {
-  -webkit-transition: all 0.3s;
   transition: all 0.3s;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   display: none;
 }
 
 .sidebarIconToggle {
-  -webkit-transition: all 0.3s;
   transition: all 0.3s;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   cursor: pointer;
   position: absolute;
   z-index: 99;
@@ -172,10 +154,8 @@ input[type=checkbox] {
 }
 
 .spinner {
-  -webkit-transition: all 0.3s;
   transition: all 0.3s;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   position: absolute;
   height: 3px;
   width: 100%;
@@ -183,10 +163,8 @@ input[type=checkbox] {
 }
 
 .horizontal {
-  -webkit-transition: all 0.3s;
   transition: all 0.3s;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   position: relative;
   float: right;
   margin-top: 4px;
@@ -194,61 +172,47 @@ input[type=checkbox] {
 
 .diagonal.part-1 {
   position: relative;
-  -webkit-transition: all 0.3s;
   transition: all 0.3s;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   float: right;
 }
 
 .diagonal.part-2 {
-  -webkit-transition: all 0.3s;
   transition: all 0.3s;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   position: relative;
   float: right;
   margin-top: 4px;
 }
 
 input[type=checkbox]:checked ~ .sidebarIconToggle > .horizontal {
-  -webkit-transition: all 0.3s;
   transition: all 0.3s;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   opacity: 0;
 }
 
 input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-1 {
-  -webkit-transition: all 0.3s;
   transition: all 0.3s;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  -webkit-transform: rotate(135deg);
-          transform: rotate(135deg);
+  box-sizing: border-box;
+  transform: rotate(135deg);
   margin-top: 8px;
 }
 
 input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
-  -webkit-transition: all 0.3s;
   transition: all 0.3s;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  -webkit-transform: rotate(-135deg);
-          transform: rotate(-135deg);
+  box-sizing: border-box;
+  transform: rotate(-135deg);
   margin-top: -9px;
 }
 
 input[type=checkbox]:checked ~ .sidebarIconToggle > .ford-text {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   opacity: 0;
 }
 
 .ford-text {
   position: relative;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   float: right;
   margin-top: 6px;
 }
@@ -289,7 +253,6 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .ford-text {
   border: 1px solid #0276B3;
   padding: 15px 15px;
   border-radius: 0;
-  -webkit-transition: 0.5s;
   transition: 0.5s;
   color: #fff;
 }
@@ -317,7 +280,6 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .ford-text {
   border: 1px solid #37A9E8;
   padding: 15px 20px;
   border-radius: 0;
-  -webkit-transition: 0.5s;
   transition: 0.5s;
 }
 
@@ -431,11 +393,8 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .ford-text {
 }
 
 .pickup .container {
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  align-items: center;
+  justify-content: space-around;
 }
 
 .pickup .container img {
@@ -671,23 +630,17 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .ford-text {
 }
 
 .new .new-item img {
-  -webkit-transition: all 0.5s;
   transition: all 0.5s;
-  -webkit-transform: scale(1);
-          transform: scale(1);
+  transform: scale(1);
 }
 
 .new .new-item .new-content {
   position: absolute;
   bottom: 1px;
   left: 0;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   padding-top: 5px;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
   background: rgba(2, 118, 179, 0.8);
   cursor: pointer;
 }
@@ -726,8 +679,7 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .ford-text {
 
 .new .new-item:hover img {
   overflow: hidden;
-  -webkit-transform: scale(1.02);
-          transform: scale(1.02);
+  transform: scale(1.02);
 }
 
 .col,
@@ -845,6 +797,7 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .ford-text {
   border: 1px solid #fff;
 }
 
+<<<<<<< HEAD
 .disclosures p {
   text-align: center;
   border: 1px solid #3B93D4;
@@ -874,6 +827,8 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .ford-text {
   height: 500px;
 }
 
+=======
+>>>>>>> Hoang
 .recall {
   background-color: #f7f7f7;
   padding-top: 20px;
@@ -902,7 +857,10 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .ford-text {
   border: 1px solid #D92E14;
   padding: 15px 20px;
   border-radius: 0;
+<<<<<<< HEAD
   -webkit-transition: 0.5s;
+=======
+>>>>>>> Hoang
   transition: 0.5s;
   display: inline-block;
   width: 270px;
@@ -915,6 +873,38 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .ford-text {
   border-color: #D92E14;
 }
 
+<<<<<<< HEAD
+=======
+.disclosures p {
+  text-align: center;
+  border: 1px solid #3B93D4;
+  padding: 5px 0;
+  margin: 20px 10px;
+  margin-bottom: 40px;
+}
+
+.disclosures p a {
+  text-transform: uppercase;
+  color: #3B93D4;
+}
+
+.disclosures p a:hover {
+  color: #2861A4;
+  text-decoration: none;
+}
+
+.disclosures p a i {
+  margin-left: 5px;
+  font-size: 16px;
+}
+
+.disclosures .disclosures__content {
+  background-color: #f7f7f7;
+  color: #333333;
+  height: 500px;
+}
+
+>>>>>>> Hoang
 .residents {
   background-color: #092a46;
   padding-top: 15px;
@@ -937,8 +927,12 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .ford-text {
 }
 
 .residents p a {
+<<<<<<< HEAD
   -webkit-text-decoration: solid;
           text-decoration: solid;
+=======
+  text-decoration: solid;
+>>>>>>> Hoang
 }
 
 .residents h2 {
@@ -951,7 +945,10 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .ford-text {
   border: 1px solid #0276B3;
   padding: 15px 20px;
   border-radius: 0;
+<<<<<<< HEAD
   -webkit-transition: 0.5s;
+=======
+>>>>>>> Hoang
   transition: 0.5s;
   display: inline-block;
   width: 370px;
@@ -969,8 +966,11 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .ford-text {
 }
 
 .company .col-2dot4 {
+<<<<<<< HEAD
   -webkit-box-flex: 0;
   -ms-flex: 0 0 20%;
+=======
+>>>>>>> Hoang
   flex: 0 0 20%;
   max-width: 20%;
   position: relative;
