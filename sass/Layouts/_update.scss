@@ -7,6 +7,69 @@
         text-decoration: none;
         font-size: $fs-3;
     }
+    .update-title{
+        color: $color-white-0;
+        font-size: $fs-0;
+
+    }
+    .fa-envelope{
+        color: white;
+    height: 40px;
+    width: 40px;
+    background-color: $color-blue-1;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 20px;
+    line-height: 2;
+
+    }
+    .fa-list-alt{
+        color: white;
+        height: 40px;
+        width: 40px;
+        background-color: $color-blue-1;
+        border-radius: 50%;
+        text-align: center;
+        font-size: 20px;
+        line-height: 2;
+    
+    }
+    .fa-facebook-f{
+        color: white;
+        height: 30px;
+        width: 30px;
+        background-color: $color-blue-0;
+        text-align: center;
+        font-size: 15px;
+        line-height: 2;
+    }
+    .fa-twitter{
+        color: white;
+        height: 30px;
+        width: 30px;
+        background-color: $color-blue-1;
+        text-align: center;
+        font-size: 15px;
+        line-height: 2;
+    }
+    .fa-youtube{
+        color: white;
+        height: 30px;
+        width: 30px;
+        background-color: #ff0505;
+        text-align: center;
+        font-size: 15px;
+        line-height: 2;
+    }
+    .fa-instagram{
+        color: white;
+        height: 30px;
+        width: 30px;
+        background-color: #dc2c75;
+        text-align: center;
+        font-size: 15px;
+        line-height: 2;
+    }
 }
 @include responsive("large"){
     .update__hidden{
