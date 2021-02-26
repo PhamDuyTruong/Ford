@@ -1127,6 +1127,15 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .ford-text {
   width: 50%;
 }
 
+.search .search__left i {
+  font-size: 24px;
+  padding-right: 5px;
+}
+
+.search .search__left span {
+  font-size: 24px;
+}
+
 .search .search__right {
   display: flex;
 }
@@ -1144,6 +1153,7 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .ford-text {
 
 .search .search__right .popular {
   color: #fff;
+  font-weight: normal;
 }
 
 @media screen and (max-width: 768px) {
@@ -1157,16 +1167,62 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .ford-text {
 }
 
 .update {
+  padding-top: 50px;
+  padding-bottom: 50px;
   background-color: #102b4e;
 }
 
+.update .a1 {
+  font-size: 18px;
+  font-weight: 100;
+  color: #2096cd;
+}
+
+.update .a1 i {
+  display: inline-block;
+  text-align: center;
+  height: 40px;
+  width: 40px;
+  line-height: 40px;
+  border-radius: 50%;
+  background-color: #2096cd;
+  color: #fff;
+  font-size: 24px;
+}
+
+.update .a1:hover {
+  text-decoration: none;
+}
+
 .update p {
-  color: #37A9E8;
+  text-align: right;
+}
+
+.update p span {
+  color: #fff;
+  font-size: 12px;
+  font-weight: 100;
+  padding-right: 20px;
+}
+
+.update p a i {
+  font-size: 30px;
+  color: #fff;
 }
 
 @media screen and (max-width: 992px) {
   .update__hidden {
     display: none;
+  }
+  .update p {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .update p {
+    text-align: left;
   }
 }
 
