@@ -1,0 +1,33 @@
+.search {
+    background-color: #333333;
+    display: flex;
+    justify-content: space-between;
+    .search__left {
+        width: 50%;
+    }
+    .search__right {
+        display: flex;
+        a {
+            color: #a7a7a7;
+            padding: 5px;
+            font-weight: 100;
+            &:hover {
+                color: $color-white-0;
+                text-decoration: none;
+            }
+        }
+        .popular {
+            color: $color-white-0;
+        }
+    }
+}
+
+@include responsive("medium") {
+    .search__left {
+        width: 0;
+        display: none;
+    }
+    .search__right {
+        width:100%;
+    }
+}

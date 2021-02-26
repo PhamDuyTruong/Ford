@@ -8,16 +8,12 @@
 
 @import './Layouts/_header';
 @import './Layouts/_carousel';
-@import './Layouts/_pickup.scss';
-@import './Layouts/vehicle';
-@import './Layouts/offer';
-@import './Layouts/news';
-<<<<<<< HEAD
-@import './Layouts/disclosure';
-@import './Layouts/recall';
-=======
-@import './Layouts/recall';
-@import './Layouts/disclosures';
->>>>>>> Hoang
-@import './Layouts/residents';
-@import './Layouts/company';
+@import './Layouts/_pickup';
+@import './Layouts/_vehicle';
+@import './Layouts/_offer';
+@import './Layouts/_news';
+@import './Layouts/_disclosures';
+@import './Layouts/_recall';
+@import './Layouts/_residents';
+// @import './Layouts/_company';
+@import './Layouts/_search';
