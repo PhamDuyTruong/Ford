@@ -1,7 +1,40 @@
 .disclosures{
+    .collapse.show{
+        overflow-y: scroll;
+      }
+      .collapse.show::-webkit-scrollbar {
+        -webkit-appearance: none;
+        width: 10px;
+        height: 5px;
+        line-height: 5px;
+        overflow: hidden;
+       
+      }
+      
+      .collapse.show ::-webkit-scrollbar-track{
+      
+        background-color: gray;
+      }
+      ::-webkit-scrollbar-track {
+       
+        background: #f1f1f1; 
+      }
+       
+      .collapse.show::-webkit-scrollbar-thumb {
+        
+        background-color: #2861A4;;
+        
+      
+      }
+      ::-webkit-scrollbar-thumb{
+        background-color: grey;
+        box-shadow: 0 0 1px rgba(255,255,255,.5);
+      }
+      .dis-body{
+          list-style-type: none;
+      }
     p{
         text-align: center;
-        border: 1px solid $color-blue-3;
         padding: $pd-0 0;
         margin: $mg-2 $mg-1;
         margin-bottom: $mg-3;
