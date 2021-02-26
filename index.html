@@ -81,7 +81,7 @@
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
               aria-haspopup="true" aria-expanded="false" onclick=hienThiThongTin()>
               <span id="vehicle">VEHICLES</span>
-              <span class=" ford-icon float-right"><i class="fa fa-angle-down"></i></span>
+              <span class=" ford-icon float-right"><i class="fa fa-angle-down" id="nav-icon"></i></span>
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
               <a class="dropdown-item" href="#">SUVS & CROSSOVERS</a>
@@ -155,7 +155,7 @@
           </div>
         </div>
         <div class="carousel-item">
-          <img src="./img/cq5dam.web.2160.2160.jpg" class="d-block w-100" alt="...">
+          <img src="./img/cq5dam.web.2160.2160.jpg" class="d-block w-100" alt="Hình ảnh">
           <div class="carousel-caption d-none d-md-block ">
             <div class="carousel-content">
               <h5>Unleash The Raptor</h5>
@@ -429,8 +429,9 @@
   <!-- Disclosure -->
   <section class="disclosures">
     <p class="text">
-      <a data-toggle="collapse" href="#info" role="button" aria-expanded="false" aria-controls="info" onclick= hienAnimation() id="dis-title">
-        disclosures <i class="fa fa-angle-down" id="dis-icon" ></i>
+      <a data-toggle="collapse" href="#info" role="button" aria-expanded="false" aria-controls="info"
+        onclick=hienAnimation() id="dis-title">
+        disclosures <i class="fa fa-angle-down" id="dis-icon"></i>
       </a>
 
     </p>
@@ -1302,14 +1303,18 @@
     function hienThiThongTin() {
       var x = document.getElementById("navbarDropdown");
       var vehicle = document.getElementById("vehicle");
+      var animation = document.getElementById("nav-icon");
       var y = x.getAttribute('aria-expanded');
       if (y == "false") {
         x.style.background = "#2861A4";
         vehicle.style.color = "white";
-      }
-      if (y == "true") {
+        animation.style.color = "#ffffff";
+        animation.style.transform = "rotate(180deg)"
+      }else {
         x.style.background = "white";
         vehicle.style.color = "#0276B3";
+        animation.style.color = "#2861A4";
+        animation.style.transform = "rotate(0deg)"
       }
     }
 
@@ -1332,13 +1337,13 @@
       }
     }
 
-    function hienAnimation(){
+    function hienAnimation() {
       var nutQuay = document.getElementById("dis-icon");
       var layTieuDe = document.getElementById("dis-title");
       var layThuocTinh = layTieuDe.getAttribute('aria-expanded');
-      if(layThuocTinh == "false"){
+      if (layThuocTinh == "true") {
         nutQuay.style.transform = "rotate(0deg)";
-      }else{
+      } else {
         nutQuay.style.transform = "rotate(180deg)";
       }
     }
@@ -1346,23 +1351,23 @@
 
   </script>
   <script>
-    $(document).ready(function(){
-        
-        $(window).scroll(function(){
-            if ($(this).scrollTop() > 100) {
-                $('.scrollToTop').fadeIn();
-            } else {
-                $('.scrollToTop').fadeOut();
-            }
-        });
-        
-        $('.scrollToTop').click(function(){
-            $('html, body').animate({scrollTop : 0},800);
-            return false;
-        });
-        
+    $(document).ready(function () {
+
+      $(window).scroll(function () {
+        if ($(this).scrollTop() > 100) {
+          $('.scrollToTop').fadeIn();
+        } else {
+          $('.scrollToTop').fadeOut();
+        }
+      });
+
+      $('.scrollToTop').click(function () {
+        $('html, body').animate({ scrollTop: 0 }, 800);
+        return false;
+      });
+
     });
-    </script>
+  </script>
 
 
 </body>
