@@ -1473,4 +1473,28 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .ford-text {
     display: block;
   }
 }
+.scrollToTop{
+  font-weight: bold;
+  width:40px;
+  height:40px;
+
+      border-radius: 50%;
+  text-decoration: none;
+  position:fixed;
+  bottom:24px;
+  right:2%;
+  display:none;
+  background-color: rgba(0, 0, 0, 0.5)
+}
+.scrollToTop i{
+  position: absolute;
+  right: 12px;
+  bottom: 8px;
+  color: #fff;
+  font-size: 30px;
+
+}
+.scrollToTop:hover{
+  text-decoration:none;
+}
 /*# sourceMappingURL=main.css.map */
