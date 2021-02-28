@@ -1296,6 +1296,7 @@ input[type="checkbox"]:checked ~ .sidebarIconToggle > .ford-text {
 .update .update-title {
   color: #fff;
   font-size: 16px;
+  font-weight: 400;
 }
 .update .fa-envelope {
   color: #fff;
