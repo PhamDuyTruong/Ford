@@ -2,12 +2,11 @@
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+          box-sizing: border-box;
 }
 
-html,
-body {
-  font-family: "Roboto", Arial, Helvetica, sans-serif;
+html, body {
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
   color: #fff;
   font-size: 16px;
   font-weight: normal;
@@ -20,22 +19,22 @@ header {
   top: 0;
   z-index: 1071;
   -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
 .header-content {
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   background: #f3f3f3;
   padding: 0 30px;
 }
 
 .header-content .header-left a {
-  color: #102b4e;
+  color: #102B4E;
   font-size: 16px;
   font-weight: normal;
   text-decoration: none;
@@ -48,23 +47,23 @@ header {
 }
 
 .header-content .header-left .header-icon img:hover {
-  color: #0276b3;
+  color: #0276B3;
 }
 
 .header-content .header-left .header-item {
-  border-right: 1px solid #a7a7a7;
+  border-right: 1px solid #A7A7A7;
 }
 
 .header-content .header-left .header-item:hover {
-  color: #0276b3;
+  color: #0276B3;
 }
 
 .header-content .header-left .header-text:hover {
-  color: #0276b3;
+  color: #0276B3;
 }
 
 .header-content .header-right i {
-  color: #102b4e;
+  color: #102B4E;
 }
 
 .header-content .header-right a {
@@ -72,13 +71,13 @@ header {
 }
 
 .header-content .header-right span {
-  color: #2861a4;
+  color: #2861A4;
   font-size: 16px;
   font-weight: normal;
 }
 
 .header-content .header-right i:hover {
-  color: #0276b3;
+  color: #0276B3;
 }
 
 .navbar {
@@ -91,30 +90,28 @@ header {
 }
 
 .navbar .navbar-collapse .navbar-nav .nav-item a {
-  color: #0276b3;
+  color: #0276B3;
 }
 
-.navbar .navbar-collapse .navbar-nav .nav-item #nav-img p,
-.navbar .navbar-collapse .navbar-nav .nav-item #nav-img span {
+.navbar .navbar-collapse .navbar-nav .nav-item #nav-img p, .navbar .navbar-collapse .navbar-nav .nav-item #nav-img span {
   color: #333333;
 }
 
-.navbar .navbar-collapse .navbar-nav .nav-item #nav-img p:hover,
-.navbar .navbar-collapse .navbar-nav .nav-item #nav-img span:hover {
-  color: #2861a4;
+.navbar .navbar-collapse .navbar-nav .nav-item #nav-img p:hover, .navbar .navbar-collapse .navbar-nav .nav-item #nav-img span:hover {
+  color: #2861A4;
 }
 
 .navbar .navbar-collapse .navbar-nav .nav-item a:hover {
-  color: #2861a4;
+  color: #2861A4;
 }
 
 .navbar .navbar-collapse .navbar-nav .nav-item #nav-img {
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .navbar .navbar-collapse .navbar-nav .nav-item img {
@@ -126,18 +123,18 @@ header {
 .dropdown-menu {
   border: none !important;
   -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
 .dropdown-toggle .ford-icon {
-  color: #0276b3;
-  -webkit-transition: all 0.5s;
-  transition: all 0.5s;
+  color: #0276B3;
+  -webkit-transition: all .5s;
+  transition: all .5s;
 }
 
 .dropdown-toggle:active .ford-icon {
   -webkit-transform: rotate(180deg);
-  transform: rotate(180deg);
+          transform: rotate(180deg);
   color: #fff;
 }
 
@@ -145,11 +142,11 @@ header {
   border-top: none !important;
 }
 
-input[type="checkbox"] {
+input[type=checkbox] {
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+          box-sizing: border-box;
   display: none;
 }
 
@@ -157,7 +154,7 @@ input[type="checkbox"] {
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+          box-sizing: border-box;
   cursor: pointer;
   position: absolute;
   z-index: 99;
@@ -178,7 +175,7 @@ input[type="checkbox"] {
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+          box-sizing: border-box;
   position: absolute;
   height: 3px;
   width: 100%;
@@ -189,7 +186,7 @@ input[type="checkbox"] {
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+          box-sizing: border-box;
   position: relative;
   float: right;
   margin-top: 4px;
@@ -200,7 +197,7 @@ input[type="checkbox"] {
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+          box-sizing: border-box;
   float: right;
 }
 
@@ -208,50 +205,50 @@ input[type="checkbox"] {
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+          box-sizing: border-box;
   position: relative;
   float: right;
   margin-top: 4px;
 }
 
-input[type="checkbox"]:checked ~ .sidebarIconToggle > .horizontal {
+input[type=checkbox]:checked ~ .sidebarIconToggle > .horizontal {
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+          box-sizing: border-box;
   opacity: 0;
 }
 
-input[type="checkbox"]:checked ~ .sidebarIconToggle > .diagonal.part-1 {
+input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-1 {
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+          box-sizing: border-box;
   -webkit-transform: rotate(135deg);
-  transform: rotate(135deg);
+          transform: rotate(135deg);
   margin-top: 8px;
 }
 
-input[type="checkbox"]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
+input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+          box-sizing: border-box;
   -webkit-transform: rotate(-135deg);
-  transform: rotate(-135deg);
+          transform: rotate(-135deg);
   margin-top: -9px;
 }
 
-input[type="checkbox"]:checked ~ .sidebarIconToggle > .ford-text {
+input[type=checkbox]:checked ~ .sidebarIconToggle > .ford-text {
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+          box-sizing: border-box;
   opacity: 0;
 }
 
 .ford-text {
   position: relative;
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+          box-sizing: border-box;
   float: right;
   margin-top: 6px;
 }
@@ -264,7 +261,7 @@ input[type="checkbox"]:checked ~ .sidebarIconToggle > .ford-text {
     display: none !important;
   }
   .header-title {
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid #DDD;
   }
 }
 
@@ -288,8 +285,8 @@ input[type="checkbox"]:checked ~ .sidebarIconToggle > .ford-text {
 }
 
 .carousel .carousel-inner .carousel-caption .btn-learn {
-  background-color: #0276b3;
-  border: 1px solid #0276b3;
+  background-color: #0276B3;
+  border: 1px solid #0276B3;
   padding: 15px 15px;
   border-radius: 0;
   -webkit-transition: 0.5s;
@@ -299,7 +296,7 @@ input[type="checkbox"]:checked ~ .sidebarIconToggle > .ford-text {
 
 .carousel .carousel-inner .carousel-caption .btn-learn:hover {
   background-color: #fff;
-  color: #0276b3;
+  color: #0276B3;
   border-color: #333333;
 }
 
@@ -317,7 +314,7 @@ input[type="checkbox"]:checked ~ .sidebarIconToggle > .ford-text {
 
 .carousel .carousel-inner .carousel-content .btn-raptor {
   background-color: #fff;
-  border: 1px solid #37a9e8;
+  border: 1px solid #37A9E8;
   padding: 15px 20px;
   border-radius: 0;
   -webkit-transition: 0.5s;
@@ -325,9 +322,9 @@ input[type="checkbox"]:checked ~ .sidebarIconToggle > .ford-text {
 }
 
 .carousel .carousel-inner .carousel-content .btn-raptor:hover {
-  background-color: #0276b3;
+  background-color: #0276B3;
   color: #fff;
-  border-color: #37a9e8;
+  border-color: #37A9E8;
 }
 
 .carousel-control-prev {
@@ -347,8 +344,7 @@ input[type="checkbox"]:checked ~ .sidebarIconToggle > .ford-text {
   background: #fff;
 }
 
-.carousel-next-icon,
-.carousel-prev-icon {
+.carousel-next-icon, .carousel-prev-icon {
   display: inline-block;
   border: 1px solid rgba(0, 0, 0, 0.8);
   padding: 15px;
@@ -356,8 +352,7 @@ input[type="checkbox"]:checked ~ .sidebarIconToggle > .ford-text {
   background: rgba(0, 0, 0, 0.6);
 }
 
-.carousel-next-icon .fa,
-.carousel-prev-icon .fa {
+.carousel-next-icon .fa, .carousel-prev-icon .fa {
   text-align: center;
   width: 10px;
   height: 10px;
@@ -375,11 +370,10 @@ input[type="checkbox"]:checked ~ .sidebarIconToggle > .ford-text {
   left: 10px;
 }
 
-.carousel-next-icon:hover,
-.carousel-prev-icon:hover {
+.carousel-next-icon:hover, .carousel-prev-icon:hover {
   background: #fff;
-  border: 1px solid #0276b3;
-  color: #0276b3;
+  border: 1px solid #0276B3;
+  color: #0276B3;
 }
 
 @media screen and (min-width: 1200px) {
@@ -429,19 +423,19 @@ input[type="checkbox"]:checked ~ .sidebarIconToggle > .ford-text {
   height: 10px;
   background: transparent;
   border-radius: 50%;
-  border: 1px solid #37a9e8;
+  border: 1px solid #37A9E8;
 }
 
 .pickup #pickupFord .carousel-indicators li.active {
-  background: #37a9e8;
+  background: #37A9E8;
 }
 
 .pickup .container {
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   -ms-flex-pack: distribute;
-  justify-content: space-around;
+      justify-content: space-around;
 }
 
 .pickup .container img {
@@ -452,45 +446,45 @@ input[type="checkbox"]:checked ~ .sidebarIconToggle > .ford-text {
 
 .pickup .container .pickup-product {
   margin-top: 10px;
-  color: #0276b3;
+  color: #0276B3;
   font-size: 23.8px;
   font-weight: normal;
   cursor: pointer;
 }
 
 .pickup .container .price {
-  color: #a7a7a7;
+  color: #A7A7A7;
   font-size: 16px;
   font-weight: normal;
 }
 
 .pickup .container .price sup {
-  color: #0276b3;
+  color: #0276B3;
 }
 
 .pickup .container .btn-overview {
   color: #fff;
   padding: 10px 30px;
   margin: 10px 0;
-  background: #0276b3;
+  background: #0276B3;
   border-radius: 0;
 }
 
 .pickup .container .btn-overview:hover {
   background-color: #fff;
-  color: #2861a4;
+  color: #2861A4;
   border-color: #333333;
 }
 
 .pickup .container .product-view {
-  color: #0276b3;
+  color: #0276B3;
   font-size: 18px;
   font-weight: normal;
 }
 
 .pickup .container p.product-view:hover {
   cursor: pointer;
-  color: #2861a4;
+  color: #2861A4;
   font-size: 18px;
   font-weight: normal;
 }
@@ -507,14 +501,14 @@ input[type="checkbox"]:checked ~ .sidebarIconToggle > .ford-text {
 }
 
 .vehicle .vehicle-content p {
-  color: #a7a7a7;
+  color: #A7A7A7;
   font-size: 16px;
   font-weight: normal;
 }
 
 .vehicle .vehicle-content .btn-vehicle {
   margin-top: 20px;
-  background: #0276b3;
+  background: #0276B3;
   padding: 10px 40px;
   border-radius: 0;
   color: #fff;
@@ -522,8 +516,8 @@ input[type="checkbox"]:checked ~ .sidebarIconToggle > .ford-text {
 
 .vehicle .vehicle-content .btn-vehicle:hover {
   background-color: #fff;
-  color: #2861a4;
-  border-color: #0276b3;
+  color: #2861A4;
+  border-color: #0276B3;
 }
 
 .offer {
@@ -571,8 +565,8 @@ input[type="checkbox"]:checked ~ .sidebarIconToggle > .ford-text {
 
 .offer .offer-container .offer-item .fa:hover {
   background-color: #fff;
-  color: #2861a4;
-  border-color: #0276b3;
+  color: #2861A4;
+  border-color: #0276B3;
 }
 
 @media screen and (min-width: 1200px) and (max-width: 1295px) {
@@ -667,7 +661,7 @@ input[type="checkbox"]:checked ~ .sidebarIconToggle > .ford-text {
 }
 
 .new .new-top .new-top-right p {
-  color: #a7a7a7;
+  color: #A7A7A7;
   font-size: 16px;
   font-weight: 500;
 }
@@ -680,7 +674,7 @@ input[type="checkbox"]:checked ~ .sidebarIconToggle > .ford-text {
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
   -webkit-transform: scale(1);
-  transform: scale(1);
+          transform: scale(1);
 }
 
 .new .new-item .new-content {
@@ -688,12 +682,12 @@ input[type="checkbox"]:checked ~ .sidebarIconToggle > .ford-text {
   bottom: 1px;
   left: 0;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   padding-top: 5px;
   -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   background: rgba(2, 118, 179, 0.8);
   cursor: pointer;
 }
@@ -710,8 +704,8 @@ input[type="checkbox"]:checked ~ .sidebarIconToggle > .ford-text {
 
 .new .new-item .new-content .new-icon .fa:hover {
   background-color: #fff;
-  color: #2861a4;
-  border-color: #0276b3;
+  color: #2861A4;
+  border-color: #0276B3;
 }
 
 .new .new-item .new-ford {
@@ -735,7 +729,7 @@ input[type="checkbox"]:checked ~ .sidebarIconToggle > .ford-text {
 .new .new-item:hover img {
   overflow: hidden;
   -webkit-transform: scale(1.02);
-  transform: scale(1.02);
+          transform: scale(1.02);
 }
 
 .col,
@@ -829,7 +823,7 @@ input[type="checkbox"]:checked ~ .sidebarIconToggle > .ford-text {
 }
 
 .new-2 .new-viewmore {
-  background: #2861a4;
+  background: #2861A4;
 }
 
 .new-2 .new-viewmore p.new-view {
@@ -874,17 +868,27 @@ input[type="checkbox"]:checked ~ .sidebarIconToggle > .ford-text {
 }
 
 .disclosures .collapse.show::-webkit-scrollbar-thumb {
-  background-color: #2861a4;
+  background-color: #2861A4;
 }
 
 .disclosures ::-webkit-scrollbar-thumb {
   background-color: grey;
   -webkit-box-shadow: 0 0 1px rgba(255, 255, 255, 0.5);
-  box-shadow: 0 0 1px rgba(255, 255, 255, 0.5);
+          box-shadow: 0 0 1px rgba(255, 255, 255, 0.5);
 }
 
 .disclosures .dis-body {
   list-style-type: none;
+}
+
+.disclosures p.text {
+  border: 1px solid #3B93D4;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+}
+
+.disclosures p.text:hover {
+  border: none;
 }
 
 .disclosures p {
@@ -893,29 +897,24 @@ input[type="checkbox"]:checked ~ .sidebarIconToggle > .ford-text {
   margin: 20px 10px;
   margin-bottom: 40px;
 }
-.disclosures p.text {
-  border: 1px solid #37a9e8;
-  transition: all 0.5s;
-}
-.disclosures p.text:hover {
-  border: none;
-}
-.disclosures .card-body {
-  background: #f7f7f7;
-}
+
 .disclosures p a {
   text-transform: uppercase;
-  color: #3b93d4;
+  color: #3B93D4;
 }
 
 .disclosures p a:hover {
-  color: #2861a4;
+  color: #2861A4;
   text-decoration: none;
 }
 
 .disclosures p a i {
   margin-left: 5px;
   font-size: 16px;
+}
+
+.disclosures .card-body {
+  background: #f7f7f7;
 }
 
 .disclosures .disclosures__content {
@@ -933,7 +932,7 @@ input[type="checkbox"]:checked ~ .sidebarIconToggle > .ford-text {
 .recall h1 {
   margin-top: 20px;
   margin-bottom: 10px;
-  color: #d92e14;
+  color: #D92E14;
   font-size: 42px;
   font-weight: 500;
   text-align: center;
@@ -948,8 +947,8 @@ input[type="checkbox"]:checked ~ .sidebarIconToggle > .ford-text {
 }
 
 .recall p a {
-  background-color: #d92e14;
-  border: 1px solid #d92e14;
+  background-color: #D92E14;
+  border: 1px solid #D92E14;
   padding: 15px 20px;
   border-radius: 0;
   -webkit-transition: 0.5s;
@@ -961,8 +960,8 @@ input[type="checkbox"]:checked ~ .sidebarIconToggle > .ford-text {
 
 .recall p a:hover {
   background-color: #fff;
-  color: #d92e14;
-  border-color: #d92e14;
+  color: #D92E14;
+  border-color: #D92E14;
 }
 
 .residents {
@@ -988,7 +987,7 @@ input[type="checkbox"]:checked ~ .sidebarIconToggle > .ford-text {
 
 .residents p a {
   -webkit-text-decoration: solid;
-  text-decoration: solid;
+          text-decoration: solid;
 }
 
 .residents h2 {
@@ -997,8 +996,8 @@ input[type="checkbox"]:checked ~ .sidebarIconToggle > .ford-text {
 }
 
 .residents h2 a {
-  background-color: #0276b3;
-  border: 1px solid #0276b3;
+  background-color: #0276B3;
+  border: 1px solid #0276B3;
   padding: 15px 20px;
   border-radius: 0;
   -webkit-transition: 0.5s;
@@ -1037,8 +1036,8 @@ input[type="checkbox"]:checked ~ .sidebarIconToggle > .ford-text {
 
 .col-2dot4 ul li a {
   color: #a7a7a7;
-  -webkit-transition: all 0.05s;
-  transition: all 0.05s;
+  -webkit-transition: all .05s;
+  transition: all .05s;
   font-weight: 100;
 }
 
@@ -1074,8 +1073,8 @@ input[type="checkbox"]:checked ~ .sidebarIconToggle > .ford-text {
 
 .medium-left ul li a {
   color: #a7a7a7;
-  -webkit-transition: all 0.05s;
-  transition: all 0.05s;
+  -webkit-transition: all .05s;
+  transition: all .05s;
   font-weight: 100;
 }
 
@@ -1119,8 +1118,8 @@ input[type="checkbox"]:checked ~ .sidebarIconToggle > .ford-text {
 
 .medium-right .medium-right__content ul li a {
   color: #a7a7a7;
-  -webkit-transition: all 0.05s;
-  transition: all 0.05s;
+  -webkit-transition: all .05s;
+  transition: all .05s;
   font-weight: 100;
 }
 
@@ -1128,11 +1127,17 @@ input[type="checkbox"]:checked ~ .sidebarIconToggle > .ford-text {
   color: #fff;
   text-decoration: none;
 }
-.medium-right .medium-right__content  .company-collapse{
+
+.medium-right .medium-right__content .company-collapse {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
-  border-bottom: 1px solid #a7a7a7;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-bottom: 1px solid #A7A7A7;
 }
+
 .sw {
   background-color: #242424;
 }
@@ -1152,8 +1157,8 @@ input[type="checkbox"]:checked ~ .sidebarIconToggle > .ford-text {
 
 .sw ul li a {
   color: #a7a7a7;
-  -webkit-transition: all 0.05s;
-  transition: all 0.05s;
+  -webkit-transition: all .05s;
+  transition: all .05s;
   font-weight: 100;
 }
 
@@ -1185,8 +1190,8 @@ input[type="checkbox"]:checked ~ .sidebarIconToggle > .ford-text {
 
 .sw__content ul li a {
   color: #a7a7a7;
-  -webkit-transition: all 0.05s;
-  transition: all 0.05s;
+  -webkit-transition: all .05s;
+  transition: all .05s;
   font-weight: 100;
 }
 
@@ -1241,8 +1246,8 @@ input[type="checkbox"]:checked ~ .sidebarIconToggle > .ford-text {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .search .search__left {
@@ -1286,57 +1291,65 @@ input[type="checkbox"]:checked ~ .sidebarIconToggle > .ford-text {
 }
 
 .update p {
-  color: #37a9e8;
+  color: #37A9E8;
+  font-weight: 100;
 }
 
 .update a {
   text-decoration: none;
   font-size: 20.8px;
+  font-weight: 100;
 }
+
 .update .update-title {
   color: #fff;
   font-size: 16px;
-  font-weight: 400;
+  font-weight: 100;
 }
+
 .update .fa-envelope {
-  color: #fff;
+  color: white;
   height: 40px;
   width: 40px;
-  background-color: #37a9e8;
+  background-color: #37A9E8;
   border-radius: 50%;
   text-align: center;
   font-size: 20px;
   line-height: 2;
 }
+
 .update .fa-list-alt {
-  color: #fff;
+  color: white;
   height: 40px;
   width: 40px;
-  background-color: #37a9e8;
+  background-color: #37A9E8;
   border-radius: 50%;
   text-align: center;
   font-size: 20px;
   line-height: 2;
 }
+
 .update .fa-facebook-f {
   color: white;
   height: 30px;
   width: 30px;
-  background-color: #0276b3;
+  background-color: #0276B3;
   text-align: center;
   font-size: 15px;
   line-height: 2;
 }
+
 .update .fa-twitter {
   color: white;
   height: 30px;
   width: 30px;
-  background-color: #37a9e8;
+  background-color: #37A9E8;
   text-align: center;
   font-size: 15px;
   line-height: 2;
 }
-.update .fa-youtube{
+
+.update .fa-youtube {
   color: white;
   height: 30px;
   width: 30px;
@@ -1345,7 +1358,8 @@ input[type="checkbox"]:checked ~ .sidebarIconToggle > .ford-text {
   font-size: 15px;
   line-height: 2;
 }
-.update .fa-instagram{
+
+.update .fa-instagram {
   color: white;
   height: 30px;
   width: 30px;
@@ -1354,6 +1368,7 @@ input[type="checkbox"]:checked ~ .sidebarIconToggle > .ford-text {
   font-size: 15px;
   line-height: 2;
 }
+
 @media screen and (max-width: 992px) {
   .update__hidden {
     display: none;
@@ -1365,8 +1380,8 @@ input[type="checkbox"]:checked ~ .sidebarIconToggle > .ford-text {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   background-color: #f7f7f7;
 }
 
@@ -1438,8 +1453,8 @@ input[type="checkbox"]:checked ~ .sidebarIconToggle > .ford-text {
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
   footer .logo-hidden {
     display: none;
@@ -1450,35 +1465,12 @@ input[type="checkbox"]:checked ~ .sidebarIconToggle > .ford-text {
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
     padding-bottom: 5px;
   }
   footer .footer__logo2 {
     display: block;
   }
-}
-.scrollToTop {
-  font-weight: bold;
-  width: 40px;
-  height: 40px;
-
-  border-radius: 50%;
-  text-decoration: none;
-  position: fixed;
-  bottom: 24px;
-  right: 2%;
-  display: none;
-  background-color: rgba(0, 0, 0, 0.5);
-}
-.scrollToTop i {
-  position: absolute;
-  right: 12px;
-  bottom: 8px;
-  color: #fff;
-  font-size: 30px;
-}
-.scrollToTop:hover {
-  text-decoration: none;
 }
 /*# sourceMappingURL=main.css.map */
