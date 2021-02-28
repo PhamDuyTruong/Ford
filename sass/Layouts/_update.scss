@@ -2,15 +2,17 @@
     background-color: #102b4e;
     p{
         color: $color-blue-1;
+        font-weight: 100;
     }
     a{
         text-decoration: none;
         font-size: $fs-3;
+        font-weight: 100;
     }
     .update-title{
         color: $color-white-0;
         font-size: $fs-0;
-        font-weight: 400;
+        font-weight: 100;
     }
     .fa-envelope{
         color: white;
